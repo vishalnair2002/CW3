@@ -50,6 +50,8 @@
             </button>
 
             <!-- Product cards -->
+            <div v-if='showProduct'>
+                <div class='product' v-for="product in sortedProducts">
             <div class="card-deck">
                 <div v-for="product in filteredProducts" :key="product.id" class="card">
                     <div>

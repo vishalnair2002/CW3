@@ -1,5 +1,5 @@
 {
-    "name": "After School Activities",
+    "name": "After School Activities PWA",
     "origin": "*",
     "short_name": "ASA",
     "methods":"GET,HEAD,PUT,PATCH,POST,DELETE",
