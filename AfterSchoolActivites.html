@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <link rel="manifest" href="Activities.webmanifest">
+    <link rel="manifest" href="Activities1.webmanifest">
     <!-- Link to Vue.js library -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
     <!-- Link to external JavaScript file containing product data -->
@@ -50,10 +50,9 @@
             </button>
 
             <!-- Product cards -->
-            <div v-if='showProduct'>
-                <div class='product' v-for="product in sortedProducts">
             <div class="card-deck">
                 <div v-for="product in filteredProducts" :key="product.id" class="card">
+                    
                     <div>
                         <!-- Product details -->
                         <figure>

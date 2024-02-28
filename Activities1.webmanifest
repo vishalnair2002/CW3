@@ -1,0 +1,17 @@
+{
+    "name": "After School Activities PWA",
+    "origin": "*",
+    "short_name": "ASA",
+    "methods":"GET,HEAD,PUT,PATCH,POST,DELETE",
+    "description": "my online Activities",
+    "icons": [
+        {
+            "src": "images/icon-store-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "AfterSchoolActivites.html",
+    "display": "fullscreen",
+    "background_color": "#B12A34"
+}
